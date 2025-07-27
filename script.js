@@ -41,7 +41,7 @@ const projectsData = [
     technologies: ["React", "CSS", "API"],
     githubLink: "https://github.com/mod-kaif07/Weather_app_react.git",
     githubLink: "https://github.com/mod-kaif07/weather_app.git",
-    liveLink: "https://weather-app-react-git-main-mod-kaif07s-projects.vercel.app/",
+    liveLink: "https://weather-app-react-phi-mauve.vercel.app/",
     icon: "fas fa-cloud-sun",
     status: "completed",
   },
