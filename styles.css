@@ -295,11 +295,7 @@ nav.scrolled {
     align-items: center;
     margin-bottom: 3rem;
 }
-
-.about-image {
-    text-align: center;
-}
-
+/* CSS */
 .profile-image {
     width: 250px;
     height: 250px;
@@ -315,6 +311,19 @@ nav.scrolled {
     animation: pulse 2s infinite;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); /* subtle shadow for professional look */
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ensures the image fills the container properly */
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-image:hover img {
+    transform: scale(1.05); /* subtle zoom effect on hover */
 }
 
 .profile-image::before {
@@ -323,17 +332,22 @@ nav.scrolled {
     inset: 0;
     background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
     animation: shimmer 3s infinite;
+    z-index: 1;
 }
 
+/* Optional Pulse Animation */
 @keyframes pulse {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.05); }
+    0% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4); }
+    70% { box-shadow: 0 0 0 10px rgba(255, 255, 255, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
 }
 
+/* Optional Shimmer Animation */
 @keyframes shimmer {
     0% { transform: translateX(-100%); }
     100% { transform: translateX(100%); }
 }
+
 
 .about-text h3 {
     font-size: 1.8rem;
