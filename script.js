@@ -13,15 +13,15 @@ const projectsData = [
     status: "progress",
   },
   {
-  title: "Voice Assistant - SOFIA",
-  description:
-    "A personal voice assistant that fetches weather, performs math, tells jokes, and responds to voice commands.",
-  technologies: ["JavaScript", "HTML", "CSS", "API"],
-  githubLink: "https://github.com/mod-kaif07/SOFIA-Voice-Assistant.git",
-  liveLink: "https://weather-app-react-6vx5.vercel.app/",
-  icon: "fas fa-brain",
-  status: "completed"
-},
+    title: "Voice Assistant - SOFIA",
+    description:
+      "A personal voice assistant that fetches weather, performs math, tells jokes, and responds to voice commands.",
+    technologies: ["JavaScript", "HTML", "CSS", "API"],
+    githubLink: "https://github.com/mod-kaif07/SOFIA-Voice-Assistant.git",
+    liveLink: "https://weather-app-react-6vx5.vercel.app/",
+    icon: "fas fa-brain",
+    status: "completed",
+  },
 
   {
     title: "NEWS HUB",
@@ -34,13 +34,23 @@ const projectsData = [
     icon: "fas fa-user",
     status: "Progress",
   },
+
+  {
+    title: "QuickPost 🚀",
+    description:
+      "A full-stack post-sharing app with RESTful APIs, allowing users to create, edit, view, and delete posts. Great for learning backend integration.",
+    technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js"],
+    githubLink: "https://github.com/mod-kaif07/QuickPost.git",
+    liveLink: "https://quick-post-kaif.vercel.app/",
+    icon: "fas fa-pen-nib",
+    status: "completed",
+  },
   {
     title: "weather app",
     description:
       "A simple weather application that fetches real-time weather data based on user input using a public API.",
     technologies: ["React", "CSS", "API"],
     githubLink: "https://github.com/mod-kaif07/Weather_app_react.git",
-    // githubLink: "https://github.com/mod-kaif07/weather_app.git",
     liveLink: "https://weather-app-react-phi-mauve.vercel.app/",
     icon: "fas fa-cloud-sun",
     status: "completed",
@@ -63,6 +73,16 @@ const projectsData = [
     githubLink: "https://github.com/mod-kaif07/-Password-Generator-.git",
     liveLink: "https://password-generator-mod-kaif07.vercel.app/",
     icon: "fas fa-key",
+    status: "completed",
+  },
+  {
+    title: "Guess the Number",
+    description:
+      "A simple number guessing game where users try to guess a randomly generated number with feedback on each attempt.",
+    technologies: ["JavaScript", "HTML", "CSS"],
+    githubLink: "https://github.com/mod-kaif07/Guess-The-Number-Game.git",
+    liveLink: "https://guessit-game.vercel.app/",
+    icon: "fas fa-gamepad",
     status: "completed",
   },
 ];
