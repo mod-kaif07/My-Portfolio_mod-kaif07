@@ -21,7 +21,7 @@ const projectsData = [
   liveLink: "https://weather-app-react-6vx5.vercel.app/",
   icon: "fas fa-brain",
   status: "completed"
-}
+},
 
   {
     title: "NEWS HUB",
@@ -40,7 +40,7 @@ const projectsData = [
       "A simple weather application that fetches real-time weather data based on user input using a public API.",
     technologies: ["React", "CSS", "API"],
     githubLink: "https://github.com/mod-kaif07/Weather_app_react.git",
-    githubLink: "https://github.com/mod-kaif07/weather_app.git",
+    // githubLink: "https://github.com/mod-kaif07/weather_app.git",
     liveLink: "https://weather-app-react-phi-mauve.vercel.app/",
     icon: "fas fa-cloud-sun",
     status: "completed",
