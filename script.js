@@ -13,16 +13,16 @@ const projectsData = [
     status: "progress",
   },
   {
-    title: "Voice Assitance - SOFIA",
-    description:
-      "SOFIA is designed to be a personal assistant that can handle various tasks through voice commands, making it a versatile tool for users. fetches live data like weather, performs calculations, tells jokes, and offers a smooth, interactive experience",
+  title: "Voice Assistant - SOFIA",
+  description:
+    "A personal voice assistant that fetches weather, performs math, tells jokes, and responds to voice commands.",
+  technologies: ["JavaScript", "HTML", "CSS", "API"],
+  githubLink: "https://github.com/mod-kaif07/SOFIA-Voice-Assistant.git",
+  liveLink: "https://weather-app-react-6vx5.vercel.app/",
+  icon: "fas fa-brain",
+  status: "completed"
+}
 
-    technologies: ["JavaScript", "HTML", "CSS", "API"],
-    githubLink: "https://github.com/mod-kaif07/SOFIA-Voice-Assistant.git",
-    liveLink: "https://weather-app-react-6vx5.vercel.app/",
-    icon: "fas fa-brain",
-    status: "completed",
-  },
   {
     title: "NEWS HUB",
     description:
