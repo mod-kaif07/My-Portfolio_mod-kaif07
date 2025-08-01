@@ -26,7 +26,7 @@ const projectsData = [
   {
     title: "NEWS HUB",
     description:
-      "NewsHub is a modern news aggregator that displays real-time global headlines using a public API. The project is split into a React frontend and a Node.js + Express backend, built to be clean, secure, and accessible.",
+      "A real-time news app with a React frontend and Node.js + Express backend, fetching global headlines via public API.",
 
     technologies: ["React", "Node.js", "Express", "API"],
     githubLink: "https://github.com/mod-kaif07/NEWS-HUB.git",
@@ -39,7 +39,7 @@ const projectsData = [
     title: "QuickPost 🚀",
     description:
       "A full-stack post-sharing app with RESTful APIs, allowing users to create, edit, view, and delete posts. Great for learning backend integration.",
-    technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js"],
+    technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "EJS"],
     githubLink: "https://github.com/mod-kaif07/QuickPost.git",
     liveLink: "https://quick-post-kaif.vercel.app/",
     icon: "fas fa-pen-nib",
