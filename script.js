@@ -55,6 +55,16 @@ const projectsData = [
     icon: "fas fa-book",
     status: "completed",
   },
+  {
+    title: "Password Generator",
+    description:
+      "A web-based tool that generates strong, customizable passwords using user-defined criteria like length, uppercase, lowercase, numbers, and symbols.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    githubLink: "https://github.com/mod-kaif07/-Password-Generator-.git",
+    liveLink: "https://password-generator-mod-kaif07.vercel.app/",
+    icon: "fas fa-key",
+    status: "completed",
+  },
 ];
 
 window.addEventListener("DOMContentLoaded", () => {
