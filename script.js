@@ -18,7 +18,7 @@ const projectsData = [
       "A personal voice assistant that fetches weather, performs math, tells jokes, and responds to voice commands.",
     technologies: ["JavaScript", "HTML", "CSS", "API"],
     githubLink: "https://github.com/mod-kaif07/SOFIA---Voice-Assistant.git",
-    liveLink: "sofia-voice-assistant.vercel.app",
+    liveLink: "https://sofia-voice-assistant.vercel.app/",
     icon: "fas fa-brain",
     status: "completed",
   },
