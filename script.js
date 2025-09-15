@@ -2,16 +2,14 @@
 
 const projectsData = [
   {
-    title: "YouTube Clone (Fullstack)",
-    description:
-      "A comprehensive YouTube clone with video upload, streaming, user authentication, and real-time features.",
-    technologies: ["React", "Node.js", "MongoDB", "Express", "Socket.io"],
-    githubLink:
-      "https://github.com/mod-kaif07/Advance_backend_learnig-with-project",
-    liveLink: null,
-    icon: "fab fa-youtube",
-    status: "progress",
-  },
+  title: "Room Rental Website (Full-Stack MVC)",
+  description: "Full-stack rental platform built with MVC architecture for clean, maintainable code. Features user auth, property management, and real-time messaging. Responsive design ensures seamless experience across all devices.",
+  technologies: ["JavaScript", "Node.js", "MongoDB", "Express", "EJS", "MVC Architecture"],
+  githubLink: "https://github.com/mod-kaif07/Room-Radner-R-R.git",
+  liveLink: null,
+  icon: "fas fa-home",
+  status: "In progress",
+},
   {
     title: "Voice Assistant - SOFIA",
     description:
