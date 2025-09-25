@@ -6,9 +6,9 @@ const projectsData = [
   description: "Full-stack rental platform built with MVC architecture for clean, maintainable code. Features user auth, property management, and real-time messaging. Responsive design ensures seamless experience across all devices.",
   technologies: ["JavaScript", "Node.js", "MongoDB", "Express", "EJS", "MVC Architecture"],
   githubLink: "https://github.com/mod-kaif07/Room-Radner-R-R.git",
-  liveLink: null,
-  icon: "fas fa-home",
-  status: "In progress",
+  liveLink: "https://room-radner-r-r.onrender.com",
+  icon: "fas fa-brain",
+  status: "completed",
 },
   {
     title: "Voice Assistant - SOFIA",
