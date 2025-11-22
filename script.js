@@ -23,7 +23,7 @@ const projectsData = [
       "MVC Architecture",
     ],
     githubLink: "https://github.com/mod-kaif07/Room-Radner-R-R.git",
-    liveLink: "https://room-radner-r-r.onrender.com",
+    liveLink: "https://room-radner.onrender.com/",
     icon: "fas fa-brain",
     status: "completed",
   },
