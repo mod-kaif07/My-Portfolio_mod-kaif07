@@ -2,14 +2,31 @@
 
 const projectsData = [
   {
-  title: "Room Rental Website (Full-Stack MVC)",
-  description: "Full-stack rental platform built with MVC architecture for clean, maintainable code. Features user auth, property management, and real-time messaging. Responsive design ensures seamless experience across all devices.",
-  technologies: ["JavaScript", "Node.js", "MongoDB", "Express", "EJS", "MVC Architecture"],
-  githubLink: "https://github.com/mod-kaif07/Room-Radner-R-R.git",
-  liveLink: "https://room-radner-r-r.onrender.com",
-  icon: "fas fa-brain",
-  status: "completed",
-},
+    title: "UBER-CLONE ",
+    description:
+      "Built a full-stack Uber clone using React, Node.js, and Express with JWT authentication, real-time ride booking, dynamic fare calculation, and modular UI components. Used GitHub for version control.",
+    technologies: ["React", "Node.js", "Express", "JWT", "GitHub", "MongoDB"],
+    githubLink: "https://github.com/mod-kaif07/Uber_MERN_PROJECT.git",
+    icon: "fas fa-brain",
+    status: "Progress",
+  },
+  {
+    title: "Room Rental Website (Full-Stack MVC)",
+    description:
+      "Full-stack rental platform built with MVC architecture for clean, maintainable code. Features user auth, property management, and real-time messaging. Responsive design ensures seamless experience across all devices.",
+    technologies: [
+      "JavaScript",
+      "Node.js",
+      "MongoDB",
+      "Express",
+      "EJS",
+      "MVC Architecture",
+    ],
+    githubLink: "https://github.com/mod-kaif07/Room-Radner-R-R.git",
+    liveLink: "https://room-radner-r-r.onrender.com",
+    icon: "fas fa-brain",
+    status: "completed",
+  },
   {
     title: "Voice Assistant - SOFIA",
     description:
