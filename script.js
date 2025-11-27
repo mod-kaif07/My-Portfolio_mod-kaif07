@@ -1,714 +1,382 @@
-// Project Management System
-
+// ===== PROJECTS DATA =====
+// To add a new project, simply add a new object to this array following the same structure
 const projectsData = [
-  {
-    title: "UBER-CLONE ",
-    description:
-      "Built a full-stack Uber clone using React, Node.js, and Express with JWT authentication, real-time ride booking, dynamic fare calculation, and modular UI components. Used GitHub for version control.",
-    technologies: ["React", "Node.js", "Express", "JWT", "GitHub", "MongoDB"],
-    githubLink: "https://github.com/mod-kaif07/Uber_MERN_PROJECT.git",
-    icon: "fas fa-brain",
-    status: "Progress",
-  },
-  {
-    title: "Room Rental Website (Full-Stack MVC)",
-    description:
-      "Full-stack rental platform built with MVC architecture for clean, maintainable code. Features user auth, property management, and real-time messaging. Responsive design ensures seamless experience across all devices.",
-    technologies: [
-      "JavaScript",
-      "Node.js",
-      "MongoDB",
-      "Express",
-      "EJS",
-      "MVC Architecture",
-    ],
-    githubLink: "https://github.com/mod-kaif07/Room-Radner-R-R.git",
-    liveLink: "https://room-radner.onrender.com/",
-    icon: "fas fa-brain",
-    status: "completed",
-  },
-  {
-    title: "Voice Assistant - SOFIA",
-    description:
-      "A personal voice assistant that fetches weather, performs math, tells jokes, and responds to voice commands.",
-    technologies: ["JavaScript", "HTML", "CSS", "API"],
-    githubLink: "https://github.com/mod-kaif07/SOFIA---Voice-Assistant.git",
-    liveLink: "https://sofia-voice-assistant.vercel.app/",
-    icon: "fas fa-brain",
-    status: "completed",
-  },
-
-  {
-    title: "NEWS HUB",
-    description:
-      "A real-time news app with a React frontend and Node.js + Express backend, fetching global headlines via public API.",
-
-    technologies: ["React", "Node.js", "Express", "API"],
-    githubLink: "https://github.com/mod-kaif07/NEWS-HUB.git",
-    liveLink: null,
-    icon: "fas fa-user",
-    status: "Progress",
-  },
-
-  {
-    title: "QuickPost 🚀",
-    description:
-      "A full-stack post-sharing app with RESTful APIs, allowing users to create, edit, view, and delete posts. Great for learning backend integration.",
-    technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "EJS"],
-    githubLink: "https://github.com/mod-kaif07/QuickPost.git",
-    liveLink: "https://quick-post-kaif.vercel.app/",
-    icon: "fas fa-pen-nib",
-    status: "completed",
-  },
-  {
-    title: "weather app",
-    description:
-      "A simple weather application that fetches real-time weather data based on user input using a public API.",
-    technologies: ["React", "CSS", "API"],
-    githubLink: "https://github.com/mod-kaif07/Weather_app_react.git",
-    liveLink: "https://weather-app-react-phi-mauve.vercel.app/",
-    icon: "fas fa-cloud-sun",
-    status: "completed",
-  },
-  {
-    title: "Dictionary App",
-    description:
-      "A web-based dictionary application that provides definitions, synonyms, and translations for words using a public API.",
-    technologies: ["React", "CSS", "API"],
-    githubLink: "https://github.com/mod-kaif07/dictoinary_web_app.git",
-    liveLink: "https://dictoinarywebapp.vercel.app/",
-    icon: "fas fa-book",
-    status: "completed",
-  },
-  {
-    title: "Password Generator",
-    description:
-      "A web-based tool that generates strong, customizable passwords using user-defined criteria like length, uppercase, lowercase, numbers, and symbols.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-    githubLink: "https://github.com/mod-kaif07/-Password-Generator-.git",
-    liveLink: "https://passbolt-delta.vercel.app/",
-    icon: "fas fa-key",
-    status: "completed",
-  },
-  {
-    title: "Guess the Number",
-    description:
-      "A simple number guessing game where users try to guess a randomly generated number with feedback on each attempt.",
-    technologies: ["JavaScript", "HTML", "CSS"],
-    githubLink: "https://github.com/mod-kaif07/Guess-The-Number-Game.git",
-    liveLink: "https://guessit-game.vercel.app/",
-    icon: "fas fa-gamepad",
-    status: "completed",
-  },
+    {
+        title: "UBER CLONE",
+        description: "Built a full-stack Uber clone using React, Node.js, and Express with JWT authentication, real-time ride booking, dynamic fare calculation, and modular UI components.",
+        technologies: ["React", "Node.js", "Express", "JWT", "MongoDB"],
+        githubLink: "https://github.com/mod-kaif07/Uber_MERN_PROJECT.git",
+        liveLink: null,
+        icon: "fas fa-car",
+        status: "In Progress"
+    },
+    {
+        title: "Room Rental Platform",
+        description: "Full-stack rental platform built with MVC architecture. Features user authentication, property management, and responsive design for seamless experience.",
+        technologies: ["JavaScript", "Node.js", "MongoDB", "Express", "EJS"],
+        githubLink: "https://github.com/mod-kaif07/Room-Radner-R-R.git",
+        liveLink: "https://room-radner.onrender.com/",
+        icon: "fas fa-home",
+        status: "Completed"
+    },
+    {
+        title: "Voice Assistant - SOFIA",
+        description: "A personal voice assistant that fetches weather, performs math, tells jokes, and responds to voice commands.",
+        technologies: ["JavaScript", "HTML", "CSS", "API"],
+        githubLink: "https://github.com/mod-kaif07/SOFIA---Voice-Assistant.git",
+        liveLink: "https://sofia-voice-assistant.vercel.app/",
+        icon: "fas fa-microphone",
+        status: "Completed"
+    },
+    {
+        title: "NEWS HUB",
+        description: "A real-time news app with React frontend and Node.js + Express backend, fetching global headlines via public API.",
+        technologies: ["React", "Node.js", "Express", "API"],
+        githubLink: "https://github.com/mod-kaif07/NEWS-HUB.git",
+        liveLink: null,
+        icon: "fas fa-newspaper",
+        status: "In Progress"
+    },
+    {
+        title: "QuickPost",
+        description: "A full-stack post-sharing app with RESTful APIs, allowing users to create, edit, view, and delete posts.",
+        technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express", "EJS"],
+        githubLink: "https://github.com/mod-kaif07/QuickPost.git",
+        liveLink: "https://quick-post-kaif.vercel.app/",
+        icon: "fas fa-pen-nib",
+        status: "Completed"
+    },
+    {
+        title: "Weather App",
+        description: "A weather application that fetches real-time weather data based on user input using a public API.",
+        technologies: ["React", "CSS", "API"],
+        githubLink: "https://github.com/mod-kaif07/Weather_app_react.git",
+        liveLink: "https://weather-app-react-phi-mauve.vercel.app/",
+        icon: "fas fa-cloud-sun",
+        status: "Completed"
+    },
+    {
+        title: "Dictionary App",
+        description: "A web-based dictionary application that provides definitions, synonyms, and translations for words.",
+        technologies: ["React", "CSS", "API"],
+        githubLink: "https://github.com/mod-kaif07/dictoinary_web_app.git",
+        liveLink: "https://dictoinarywebapp.vercel.app/",
+        icon: "fas fa-book",
+        status: "Completed"
+    },
+    {
+        title: "Password Generator",
+        description: "A tool that generates strong, customizable passwords using user-defined criteria like length and character types.",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        githubLink: "https://github.com/mod-kaif07/-Password-Generator-.git",
+        liveLink: "https://passbolt-delta.vercel.app/",
+        icon: "fas fa-key",
+        status: "Completed"
+    },
+    {
+        title: "Guess the Number",
+        description: "A number guessing game where users try to guess a randomly generated number with feedback on each attempt.",
+        technologies: ["JavaScript", "HTML", "CSS"],
+        githubLink: "https://github.com/mod-kaif07/Guess-The-Number-Game.git",
+        liveLink: "https://guessit-game.vercel.app/",
+        icon: "fas fa-gamepad",
+        status: "Completed"
+    }
 ];
 
-window.addEventListener("DOMContentLoaded", () => {
-  const container = document.getElementById("projectsContainer");
-  let html = "";
+// ===== DOM ELEMENTS =====
+const navbar = document.querySelector('.navbar');
+const hamburger = document.getElementById('hamburger');
+const navMenu = document.getElementById('navMenu');
+const typedText = document.getElementById('typedText');
+const contactForm = document.getElementById('contactForm');
+const projectsGrid = document.getElementById('projectsGrid');
 
-  projectsData.forEach((project) => {
-    html += `
-      <div class="project-card">
-        <div class="project-header">
-          <h3 class="project-title">
-            <i class="${project.icon}"></i> ${project.title}
-          </h3>
-          <p class="project-description">${project.description}</p>
-          <div class="project-tech">
-            ${project.technologies
-              .map((tech) => `<span class="tech-tag">${tech}</span>`)
-              .join("")}
-          </div>
-          <div class="project-status ${
-            project.status === "completed"
-              ? "status-completed"
-              : "status-progress"
-          }">
-            ${
-              project.status === "completed" ? "✅ Completed" : "🚧 In Progress"
-            }
-          </div>
-        </div>
-        <div class="project-links">
-          <a href="${project.githubLink}" target="_blank" class="project-link">
-            <i class="fab fa-github"></i> GitHub
-          </a>
-          ${
-            project.liveLink
-              ? `
-          <a href="${project.liveLink}" target="_blank" class="project-link">
-            <i class="fas fa-external-link-alt"></i> Live Demo
-          </a>`
-              : ""
-          }
-        </div>
-      </div>
-    `;
-  });
-
-  container.innerHTML = html;
-});
-
-function createProjectCard(project, index) {
-  const card = document.createElement("div");
-  card.className = "project-card animate-on-scroll";
-  card.style.animationDelay = index * 0.1 + "s";
-
-  const statusClass =
-    project.status === "completed" ? "status-completed" : "status-progress";
-  const statusText =
-    project.status === "completed" ? "Completed" : "In Progress";
-
-  const techTags = project.technologies
-    .map((tech) => `<span class="tech-tag">${tech}</span>`)
-    .join("");
-
-  const liveLink = project.liveLink
-    ? `<a href="${project.liveLink}" target="_blank" class="project-link">
-            <i class="fas fa-external-link-alt"></i> Live Demo
-        </a>`
-    : "";
-
-  card.innerHTML = `
-        <div class="project-header">
-            <h3 class="project-title">
-                <i class="${project.icon}"></i>
-                ${project.title}
-            </h3>
-            <span class="project-status ${statusClass}">${statusText}</span>
-            <p class="project-description">${project.description}</p>
-            <div class="project-tech">
-                ${techTags}
-            </div>
-        </div>
-        <div class="project-links">
-            <a href="${project.githubLink}" target="_blank" class="project-link">
-                <i class="fab fa-github"></i> Code
-            </a>
-            ${liveLink}
-        </div>
-    `;
-
-  return card;
-}
-
-function initializeProjectManagement() {
-  const addProjectBtn = document.getElementById("addProjectBtn");
-  if (!addProjectBtn) return;
-
-  addProjectBtn.addEventListener("click", showAddProjectModal);
-}
-
-function showAddProjectModal() {
-  const modal = document.createElement("div");
-  modal.className = "project-modal";
-  modal.innerHTML = `
-        <div class="modal-overlay"></div>
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3>Add New Project</h3>
-                <button class="modal-close">&times;</button>
-            </div>
-            <form id="addProjectForm" class="modal-form">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label>Project Title</label>
-                        <input type="text" name="title" required placeholder="e.g., My Awesome App">
-                    </div>
-                    <div class="form-group">
-                        <label>Icon Class</label>
-                        <input type="text" name="icon" placeholder="e.g., fas fa-rocket" value="fas fa-code">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label>Description</label>
-                    <textarea name="description" required placeholder="Brief description of your project..."></textarea>
-                </div>
-                <div class="form-row">
-                    <div class="form-group">
-                        <label>Technologies (comma separated)</label>
-                        <input type="text" name="technologies" required placeholder="React, Node.js, MongoDB">
-                    </div>
-                    <div class="form-group">
-                        <label>Status</label>
-                        <select name="status" required>
-                            <option value="progress">In Progress</option>
-                            <option value="completed">Completed</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group">
-                        <label>GitHub Link</label>
-                        <input type="url" name="githubLink" required placeholder="https://github.com/username/repo">
-                    </div>
-                    <div class="form-group">
-                        <label>Live Demo Link (optional)</label>
-                        <input type="url" name="liveLink" placeholder="https://your-project.com">
-                    </div>
-                </div>
-                <div class="modal-actions">
-                    <button type="button" class="btn btn-secondary modal-cancel">Cancel</button>
-                    <button type="submit" class="btn btn-primary">Add Project</button>
-                </div>
-            </form>
-        </div>
-    `;
-
-  document.body.appendChild(modal);
-
-  // Modal event listeners
-  const overlay = modal.querySelector(".modal-overlay");
-  const closeBtn = modal.querySelector(".modal-close");
-  const cancelBtn = modal.querySelector(".modal-cancel");
-  const form = modal.querySelector("#addProjectForm");
-
-  function closeModal() {
-    modal.style.animation = "fadeOut 0.3s ease";
-    setTimeout(() => modal.remove(), 300);
-  }
-
-  overlay.addEventListener("click", closeModal);
-  closeBtn.addEventListener("click", closeModal);
-  cancelBtn.addEventListener("click", closeModal);
-
-  form.addEventListener("submit", function (e) {
-    e.preventDefault();
-
-    const formData = new FormData(form);
-    const newProject = {
-      title: formData.get("title"),
-      description: formData.get("description"),
-      technologies: formData
-        .get("technologies")
-        .split(",")
-        .map((tech) => tech.trim()),
-      githubLink: formData.get("githubLink"),
-      liveLink: formData.get("liveLink") || null,
-      icon: formData.get("icon") || "fas fa-code",
-      status: formData.get("status"),
-    };
-
-    // Add to projects data
-    projectsData.push(newProject);
-
-    // Re-render projects
+// ===== INITIALIZATION =====
+document.addEventListener('DOMContentLoaded', () => {
+    initNavbar();
+    initTypingEffect();
+    initScrollAnimations();
+    initCounters();
     renderProjects();
-
-    // Reinitialize scroll animations for new elements
-    setTimeout(() => {
-      initializeScrollAnimations();
-    }, 100);
-
-    showNotification("Project added successfully!", "success");
-    closeModal();
-  });
-
-  // Animate modal in
-  modal.style.animation = "fadeIn 0.3s ease";
-} // Global variables
-let particles = [];
-const navbar = document.getElementById("navbar");
-const hamburger = document.getElementById("hamburger");
-const navLinks = document.querySelector(".nav-links");
-
-// Projects data - Easy to modify and add new projects
-// Just add new project objects to this array to display them on your website
-
-// Loading animation
-document.addEventListener("DOMContentLoaded", function () {
-  // Create loading screen
-  const loading = document.createElement("div");
-  loading.className = "loading";
-  loading.innerHTML = '<div class="loader"></div>';
-  document.body.appendChild(loading);
-
-  // Hide loading screen after page loads
-  window.addEventListener("load", function () {
-    setTimeout(() => {
-      loading.classList.add("hidden");
-      setTimeout(() => loading.remove(), 500);
-    }, 1000);
-  });
-
-  // Initialize all functionality
-  initializeParticles();
-  initializeNavigation();
-  initializeScrollAnimations();
-  initializeContactForm();
-  initializeTypingEffect();
-  initializeCounterAnimation();
-  renderProjects();
+    initContactForm();
 });
 
-// Particle system
-function initializeParticles() {
-  const particlesContainer = document.getElementById("particles");
-  const particleCount = 50;
-
-  for (let i = 0; i < particleCount; i++) {
-    createParticle(particlesContainer);
-  }
-
-  // Create new particles periodically
-  setInterval(() => {
-    if (particles.length < particleCount) {
-      createParticle(particlesContainer);
-    }
-  }, 2000);
-}
-
-function createParticle(container) {
-  const particle = document.createElement("div");
-  particle.className = "particle";
-
-  // Random position and properties
-  particle.style.left = Math.random() * 100 + "%";
-  particle.style.top = Math.random() * 100 + "%";
-  particle.style.animationDelay = Math.random() * 6 + "s";
-  particle.style.animationDuration = Math.random() * 3 + 3 + "s";
-
-  container.appendChild(particle);
-  particles.push(particle);
-
-  // Remove particle after animation
-  setTimeout(() => {
-    if (particle.parentNode) {
-      particle.parentNode.removeChild(particle);
-      particles.splice(particles.indexOf(particle), 1);
-    }
-  }, 8000);
-}
-
-// Navigation functionality
-function initializeNavigation() {
-  // Scroll effect for navbar
-  window.addEventListener("scroll", function () {
-    if (window.scrollY > 100) {
-      navbar.classList.add("scrolled");
-    } else {
-      navbar.classList.remove("scrolled");
-    }
-  });
-
-  // Mobile menu toggle
-  hamburger.addEventListener("click", function () {
-    hamburger.classList.toggle("active");
-    navLinks.classList.toggle("active");
-  });
-
-  // Close mobile menu when clicking on links
-  document.querySelectorAll(".nav-links a").forEach((link) => {
-    link.addEventListener("click", function () {
-      hamburger.classList.remove("active");
-      navLinks.classList.remove("active");
+// ===== NAVBAR =====
+function initNavbar() {
+    // Scroll effect
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
     });
-  });
 
-  // Smooth scrolling for navigation links
-  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-    anchor.addEventListener("click", function (e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute("href"));
-      if (target) {
-        target.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
+    // Mobile menu toggle
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
+    });
+
+    // Close mobile menu on link click
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
         });
-      }
     });
-  });
 
-  // Active navigation highlighting
-  window.addEventListener("scroll", updateActiveNavigation);
-}
-
-function updateActiveNavigation() {
-  const sections = document.querySelectorAll("section[id]");
-  const navLinks = document.querySelectorAll(".nav-links a");
-
-  let currentSection = "";
-  sections.forEach((section) => {
-    const sectionTop = section.offsetTop - 150;
-    const sectionHeight = section.offsetHeight;
-
-    if (
-      window.scrollY >= sectionTop &&
-      window.scrollY < sectionTop + sectionHeight
-    ) {
-      currentSection = section.getAttribute("id");
-    }
-  });
-
-  navLinks.forEach((link) => {
-    link.classList.remove("active");
-    if (link.getAttribute("href") === "#" + currentSection) {
-      link.classList.add("active");
-    }
-  });
-}
-
-// Scroll animations
-function initializeScrollAnimations() {
-  const observerOptions = {
-    threshold: 0.1,
-    rootMargin: "0px 0px -50px 0px",
-  };
-
-  const observer = new IntersectionObserver(function (entries) {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add("animated");
-      }
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
     });
-  }, observerOptions);
-
-  // Add animation classes to elements
-  const animatedElements = document.querySelectorAll(
-    ".stat-card, .skill-category, .project-card, .about-text, .contact-info, .contact-form"
-  );
-
-  animatedElements.forEach((element, index) => {
-    element.classList.add("animate-on-scroll");
-    element.style.animationDelay = index * 0.1 + "s";
-    observer.observe(element);
-  });
 }
 
-// Typing effect for hero section
-function initializeTypingEffect() {
-  const titles = [
-    "Backend Enthusiast",
-    "DSA ",
-    "Problem Solver",
-    "Full Stack Developer",
-  ];
-
-  let titleIndex = 0;
-  let charIndex = 0;
-  let isDeleting = false;
-  const subtitleElement = document.querySelector(".hero .subtitle");
-
-  if (!subtitleElement) return;
-
-  function typeWriter() {
-    const currentTitle = titles[titleIndex];
-
-    if (isDeleting) {
-      subtitleElement.textContent = currentTitle.substring(0, charIndex - 1);
-      charIndex--;
-    } else {
-      subtitleElement.textContent = currentTitle.substring(0, charIndex + 1);
-      charIndex++;
+// ===== TYPING EFFECT =====
+function initTypingEffect() {
+    const texts = [
+        'Backend Enthusiast',
+        'Full Stack Developer',
+        'Problem Solver',
+        'DSA Expert',
+        'MERN Developer'
+    ];
+    
+    let textIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    let typingSpeed = 100;
+    
+    function type() {
+        const currentText = texts[textIndex];
+        
+        if (isDeleting) {
+            typedText.textContent = currentText.substring(0, charIndex - 1);
+            charIndex--;
+            typingSpeed = 50;
+        } else {
+            typedText.textContent = currentText.substring(0, charIndex + 1);
+            charIndex++;
+            typingSpeed = 100;
+        }
+        
+        if (!isDeleting && charIndex === currentText.length) {
+            isDeleting = true;
+            typingSpeed = 2000;
+        } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            textIndex = (textIndex + 1) % texts.length;
+            typingSpeed = 500;
+        }
+        
+        setTimeout(type, typingSpeed);
     }
-
-    let typeSpeed = isDeleting ? 50 : 100;
-
-    if (!isDeleting && charIndex === currentTitle.length) {
-      typeSpeed = 2000; // Pause at end
-      isDeleting = true;
-    } else if (isDeleting && charIndex === 0) {
-      isDeleting = false;
-      titleIndex = (titleIndex + 1) % titles.length;
-      typeSpeed = 500; // Pause before next title
-    }
-
-    setTimeout(typeWriter, typeSpeed);
-  }
-
-  // Start typing effect after a delay
-  setTimeout(typeWriter, 2000);
+    
+    setTimeout(type, 1000);
 }
 
-// Counter animation for stats
-function initializeCounterAnimation() {
-  const counters = document.querySelectorAll(".stat-number");
-
-  const observerOptions = {
-    threshold: 0.5,
-  };
-
-  const observer = new IntersectionObserver(function (entries) {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        animateCounter(entry.target);
-        observer.unobserve(entry.target);
-      }
+// ===== SCROLL ANIMATIONS =====
+function initScrollAnimations() {
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, observerOptions);
+    
+    // Add animation to elements
+    const animateElements = document.querySelectorAll('.skill-card, .project-card, .stat-box, .internship-card');
+    animateElements.forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(20px)';
+        el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        observer.observe(el);
     });
-  }, observerOptions);
+}
 
-  counters.forEach((counter) => {
-    observer.observe(counter);
-  });
+// ===== COUNTER ANIMATION =====
+function initCounters() {
+    const counters = document.querySelectorAll('.stat-value');
+    
+    const observerOptions = {
+        threshold: 0.5
+    };
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                animateCounter(entry.target);
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+    
+    counters.forEach(counter => observer.observe(counter));
 }
 
 function animateCounter(element) {
-  const target = parseInt(element.textContent);
-  const increment = target / 50;
-  let current = 0;
-
-  const timer = setInterval(() => {
-    current += increment;
-    if (current >= target) {
-      element.textContent =
-        target + (element.textContent.includes("+") ? "+" : "");
-      clearInterval(timer);
-    } else {
-      element.textContent =
-        Math.ceil(current) + (element.textContent.includes("+") ? "+" : "");
-    }
-  }, 40);
+    const target = parseInt(element.getAttribute('data-target'));
+    const duration = 2000;
+    const increment = target / (duration / 16);
+    let current = 0;
+    
+    const timer = setInterval(() => {
+        current += increment;
+        if (current >= target) {
+            element.textContent = target;
+            clearInterval(timer);
+        } else {
+            element.textContent = Math.ceil(current);
+        }
+    }, 16);
 }
 
-// Contact form functionality
-function initializeContactForm() {
-  const contactForm = document.getElementById("contactForm");
-
-  if (!contactForm) return;
-
-  contactForm.addEventListener("submit", function (e) {
-    e.preventDefault();
-
-    // Get form data
-    const formData = new FormData(contactForm);
-    const name = formData.get("name");
-    const email = formData.get("email");
-    const subject = formData.get("subject");
-    const message = formData.get("message");
-
-    // Basic validation
-    if (!name || !email || !subject || !message) {
-      showNotification("Please fill in all fields", "error");
-      return;
-    }
-
-    if (!isValidEmail(email)) {
-      showNotification("Please enter a valid email address", "error");
-      return;
-    }
-
-    // Simulate form submission
-    const submitButton = contactForm.querySelector('button[type="submit"]');
-    const originalText = submitButton.innerHTML;
-
-    submitButton.innerHTML =
-      '<i class="fas fa-spinner fa-spin"></i> Sending...';
-    submitButton.disabled = true;
-
-    // Simulate API call
-    setTimeout(() => {
-      showNotification("Kindly reached with my Email !.", "success");
-      contactForm.reset();
-      submitButton.innerHTML = originalText;
-      submitButton.disabled = false;
-    }, 2000);
-  });
-
-  // Real-time validation
-  const inputs = contactForm.querySelectorAll("input, textarea");
-  inputs.forEach((input) => {
-    input.addEventListener("blur", function () {
-      validateField(this);
-    });
-
-    input.addEventListener("input", function () {
-      if (this.classList.contains("error")) {
-        validateField(this);
-      }
-    });
-  });
+// ===== RENDER PROJECTS =====
+function renderProjects() {
+    const projectsHTML = projectsData.map(project => `
+        <div class="project-card">
+            <div class="project-icon">
+                <i class="${project.icon}"></i>
+            </div>
+            <div class="project-header-content">
+                <h3 class="project-title">${project.title}</h3>
+                <span class="project-status">${project.status}</span>
+            </div>
+            <p class="project-description">${project.description}</p>
+            <div class="project-tech">
+                ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+            </div>
+            <div class="project-links">
+                <a href="${project.githubLink}" target="_blank" class="project-link">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                ${project.liveLink ? `
+                    <a href="${project.liveLink}" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i> Live Demo
+                    </a>
+                ` : ''}
+            </div>
+        </div>
+    `).join('');
+    
+    projectsGrid.innerHTML = projectsHTML;
 }
 
-function validateField(field) {
-  const value = field.value.trim();
-
-  field.classList.remove("error", "success");
-
-  if (!value) {
-    field.classList.add("error");
-    return false;
-  }
-
-  if (field.type === "email" && !isValidEmail(value)) {
-    field.classList.add("error");
-    return false;
-  }
-
-  field.classList.add("success");
-  return true;
+// ===== CONTACT FORM =====
+function initContactForm() {
+    contactForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        
+        const formData = new FormData(contactForm);
+        const name = formData.get('name');
+        const email = formData.get('email');
+        const subject = formData.get('subject');
+        const message = formData.get('message');
+        
+        // Validation
+        if (!name || !email || !subject || !message) {
+            showNotification('Please fill in all fields', 'error');
+            return;
+        }
+        
+        if (!isValidEmail(email)) {
+            showNotification('Please enter a valid email address', 'error');
+            return;
+        }
+        
+        // Submit button loading state
+        const submitBtn = contactForm.querySelector('button[type="submit"]');
+        const originalHTML = submitBtn.innerHTML;
+        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+        submitBtn.disabled = true;
+        
+        // Simulate form submission
+        setTimeout(() => {
+            showNotification('Message sent successfully! I will get back to you soon.', 'success');
+            contactForm.reset();
+            submitBtn.innerHTML = originalHTML;
+            submitBtn.disabled = false;
+        }, 2000);
+    });
 }
 
 function isValidEmail(email) {
-  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  return emailRegex.test(email);
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
 }
 
+// ===== NOTIFICATION SYSTEM =====
 function showNotification(message, type) {
-  // Remove existing notifications
-  const existingNotification = document.querySelector(".notification");
-  if (existingNotification) {
-    existingNotification.remove();
-  }
-
-  // Create notification
-  const notification = document.createElement("div");
-  notification.className = `notification ${type}`;
-  notification.innerHTML = `
-        <div class="notification-content">
-            <i class="fas ${
-              type === "success" ? "fa-check-circle" : "fa-exclamation-circle"
-            }"></i>
+    // Remove existing notification
+    const existingNotification = document.querySelector('.notification');
+    if (existingNotification) {
+        existingNotification.remove();
+    }
+    
+    // Create notification
+    const notification = document.createElement('div');
+    notification.className = 'notification';
+    notification.innerHTML = `
+        <div style="
+            position: fixed;
+            top: 100px;
+            right: 20px;
+            background: ${type === 'success' ? 'rgba(74, 222, 128, 0.1)' : 'rgba(248, 113, 113, 0.1)'};
+            color: ${type === 'success' ? '#4ade80' : '#f87171'};
+            padding: 1rem 1.5rem;
+            border-radius: 12px;
+            border: 1px solid ${type === 'success' ? 'rgba(74, 222, 128, 0.2)' : 'rgba(248, 113, 113, 0.2)'};
+            z-index: 10000;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            animation: slideIn 0.3s ease;
+            max-width: 400px;
+        ">
+            <i class="fas ${type === 'success' ? 'fa-check-circle' : 'fa-exclamation-circle'}"></i>
             <span>${message}</span>
-            <button class="notification-close">&times;</button>
+            <button onclick="this.parentElement.parentElement.remove()" style="
+                background: none;
+                border: none;
+                color: inherit;
+                font-size: 1.2rem;
+                cursor: pointer;
+                margin-left: auto;
+            ">&times;</button>
         </div>
     `;
-
-  // Add styles
-  notification.style.cssText = `
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        background: ${
-          type === "success"
-            ? "rgba(0, 212, 255, 0.9)"
-            : "rgba(255, 0, 110, 0.9)"
-        };
-        color: white;
-        padding: 1rem 1.5rem;
-        border-radius: 10px;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
-        z-index: 10000;
-        animation: slideInRight 0.3s ease;
-        backdrop-filter: blur(10px);
-        border: 1px solid ${
-          type === "success"
-            ? "rgba(0, 212, 255, 0.3)"
-            : "rgba(255, 0, 110, 0.3)"
-        };
-    `;
-
-  document.body.appendChild(notification);
-
-  // Close functionality
-  const closeButton = notification.querySelector(".notification-close");
-  closeButton.addEventListener("click", () => {
-    notification.style.animation = "slideOutRight 0.3s ease";
-    setTimeout(() => notification.remove(), 300);
-  });
-
-  // Auto remove after 5 seconds
-  setTimeout(() => {
-    if (notification.parentNode) {
-      notification.style.animation = "slideOutRight 0.3s ease";
-      setTimeout(() => notification.remove(), 300);
-    }
-  }, 5000);
+    
+    document.body.appendChild(notification);
+    
+    // Auto remove after 5 seconds
+    setTimeout(() => {
+        if (notification.parentNode) {
+            notification.remove();
+        }
+    }, 5000);
 }
 
-// Add notification animations to CSS dynamically
-const notificationStyles = document.createElement("style");
-notificationStyles.textContent = `
-    @keyframes slideInRight {
+// Add animation styles
+const animationStyles = document.createElement('style');
+animationStyles.textContent = `
+    @keyframes slideIn {
         from {
             transform: translateX(100%);
             opacity: 0;
@@ -717,156 +385,26 @@ notificationStyles.textContent = `
             transform: translateX(0);
             opacity: 1;
         }
-    }
-    
-    @keyframes slideOutRight {
-        from {
-            transform: translateX(0);
-            opacity: 1;
-        }
-        to {
-            transform: translateX(100%);
-            opacity: 0;
-        }
-    }
-    
-    .notification-content {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-    }
-    
-    .notification-close {
-        background: none;
-        border: none;
-        color: white;
-        font-size: 1.2rem;
-        cursor: pointer;
-        margin-left: auto;
-        padding: 0;
-        width: 20px;
-        height: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .form-group input.error,
-    .form-group textarea.error {
-        border-color: #ff006e;
-        background: rgba(255, 0, 110, 0.1);
-    }
-    
-    .form-group input.success,
-    .form-group textarea.success {
-        border-color: #00d4ff;
-        background: rgba(0, 212, 255, 0.1);
     }
 `;
-document.head.appendChild(notificationStyles);
+document.head.appendChild(animationStyles);
 
-// Utility functions
-function debounce(func, wait) {
-  let timeout;
-  return function executedFunction(...args) {
-    const later = () => {
-      clearTimeout(timeout);
-      func(...args);
-    };
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
-  };
-}
-
-function throttle(func, limit) {
-  let inThrottle;
-  return function () {
-    const args = arguments;
-    const context = this;
-    if (!inThrottle) {
-      func.apply(context, args);
-      inThrottle = true;
-      setTimeout(() => (inThrottle = false), limit);
-    }
-  };
-}
-
-// Performance optimizations
-window.addEventListener(
-  "scroll",
-  throttle(function () {
-    // Update active navigation and other scroll-based effects
-    updateActiveNavigation();
-  }, 100)
-);
-
-// Easter egg - Konami code
-let konamiCode = [];
-const konamiSequence = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]; // Up Up Down Down Left Right Left Right B A
-
-document.addEventListener("keydown", function (e) {
-  konamiCode.push(e.keyCode);
-
-  if (konamiCode.length > konamiSequence.length) {
-    konamiCode.shift();
-  }
-
-  if (konamiCode.toString() === konamiSequence.toString()) {
-    activateEasterEgg();
-    konamiCode = [];
-  }
-});
-
-function activateEasterEgg() {
-  // Add rainbow effect to the page
-  document.body.style.animation = "rainbow 2s infinite";
-
-  // Add rainbow animation
-  const rainbowStyles = document.createElement("style");
-  rainbowStyles.textContent = `
-        @keyframes rainbow {
-            0% { filter: hue-rotate(0deg); }
-            100% { filter: hue-rotate(360deg); }
-        }
-    `;
-  document.head.appendChild(rainbowStyles);
-
-  showNotification(
-    '🎉 Easter egg activated! "I solve DSA problems for fun... and sometimes dream in JavaScript." 😄',
-    "success"
-  );
-
-  // Remove effect after 5 seconds
-  setTimeout(() => {
-    document.body.style.animation = "";
-    rainbowStyles.remove();
-  }, 5000);
-}
-
-// Console message for developers
+// ===== CONSOLE MESSAGE =====
 console.log(`
-    ██╗  ██╗ █████╗ ██╗███████╗
-    ██║ ██╔╝██╔══██╗██║██╔════╝
-    █████╔╝ ███████║██║█████╗  
-    ██╔═██╗ ██╔══██║██║██╔══╝  
-    ██║  ██╗██║  ██║██║██║     
-    ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝     
-    
-    Hello, fellow developer! 👋
-    Thanks for checking out my portfolio.
-    
-    "I solve DSA problems for fun... and sometimes dream in JavaScript." 😄
-    
-    Try the Konami code: ↑↑↓↓←→←→BA
-    
-    Let's connect: mohammadkaif6660@gmail.com
+╔════════════════════════════════════╗
+║   MOHAMMAD KAIF - Portfolio 2025   ║
+║                                    ║
+║  "I solve DSA problems for fun...  ║
+║   and sometimes dream in JS"       ║
+║                                    ║
+║  📧 mohammadkaif6660@gmail.com    ║
+╚════════════════════════════════════╝
 `);
 
-// Initialize everything when DOM is ready
-if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", () => {
-    console.log("Portfolio loaded successfully! 🚀");
-  });
-} else {
-  console.log("Portfolio loaded successfully! 🚀");
-}
+document.querySelectorAll('.certificate-btn').forEach(btn => {
+    btn.addEventListener('mousemove', (e) => {
+        const rect = btn.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        btn.style.setProperty('--x', `${x}px`);
+    });
+});

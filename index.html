@@ -9,24 +9,26 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
-    <!-- Animated background particles -->
-    <div class="particles" id="particles"></div>
+    <!-- Gradient Orbs Background -->
+    <div class="gradient-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
 
     <!-- Navigation -->
-    <nav id="navbar">
-      <div class="nav-container">
-        <div class="logo">Mohammad Kaif</div>
-        <ul class="nav-links">
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="logo"></div>
+        <ul class="nav-menu" id="navMenu">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#internships">Internships</a></li>
           <li><a href="#projects">Projects</a></li>
+          <li><a href="#achievements">Achievements</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="hamburger" id="hamburger">
@@ -39,89 +41,108 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-      <div class="hero-content">
-        <h1>Mohammad Kaif</h1>
-        <p class="subtitle">Full Stack Developer & Problem Solver</p>
-        <p class="description">
+      <div class="hero-container">
+        <div class="hero-badge">
+          <i class="fas fa-circle"></i>
+          Available for Opportunities
+        </div>
+        <h1 class="hero-title">Mohammad Kaif</h1>
+        <p class="hero-subtitle" id="typedText">Backend Enthusiast</p>
+        <p class="hero-description">
           Passionate towards coding and learning new technologies. Currently
           building a YouTube clone with fullstack development skills and
           achieving Institute Rank 30 on GeeksforGeeks.
         </p>
-        <div class="cta-buttons">
-          <a href="#projects" class="btn btn-primary">View My Work</a>
-          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            View My Work
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            Get In Touch
+            <i class="fas fa-paper-plane"></i>
+          </a>
         </div>
-      </div>
-      <div class="scroll-indicator">
-        <div class="scroll-arrow"></div>
+        <div class="scroll-down">
+          <i class="fas fa-chevron-down"></i>
+        </div>
       </div>
     </section>
 
     <!-- About Section -->
-    <section id="about" class="section">
+    <section id="about" class="section about-section">
       <div class="container">
-        <h2 class="section-title">About Me</h2>
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+        </div>
         <div class="about-grid">
-          <div class="about-image">
-            <div class="profile-image">
-              <img src="prfile jpg.jpg" alt="Profile Photo" />
+          <div class="about-image-container">
+            <div class="about-image-wrapper">
+              <img src="prfile jpg.jpg" alt="Mohammad Kaif" class="about-img" />
+              <div class="image-overlay"></div>
             </div>
           </div>
-          <div class="about-text">
-            <h3>Hello! I'm Mohammad Kaif</h3>
-            <p>
-              I'm a passionate full-stack developer with a strong foundation in
+          <div class="about-content">
+            <h3 class="about-heading">Hello! I'm Mohammad Kaif</h3>
+            <p class="about-text">
+              I'm a passionate full-stack developer with a stack specializing in
               Data Structures and Algorithms. Currently diving deep into backend
-              technologies while building exciting projects like a Room Rander .
+              technologies while building exciting projects like a Room Rander.
             </p>
-            <p>
-              My journey in programming has been driven by curiosity and the joy
-              of solving complex problems. I believe in writing clean, efficient
-              code and creating meaningful digital experiences.
+            <p class="about-text">
+              My journey in programming has been driven by an infinite loop
+              while(true) {learn();} towards innovations. I believe in writing
+              clean, efficient code, whether it's algorithms or interfaces
+              creating meaningful digital experiences.
             </p>
-            <p>
-              <strong>Fun fact:</strong> "I solve DSA problems for fun... and
-              sometimes dream in JavaScript." 😄
-            </p>
-            <div class="about-links">
-              <a
-                href="https://drive.google.com/file/d/19-88j0mP2sY0UP7pRYLPOgaTZyc_PEEt/view?usp=sharing"
-                target="_blank"
-                class="btn btn-primary"
-              >
-                <i class="fas fa-download"></i> Download Resume
-              </a>
+            <div class="fun-fact">
+              <i class="fas fa-quote-left"></i>
+              <p>
+                "I solve DSA problems for fun... and sometimes dream in
+                JavaScript." 😄
+              </p>
             </div>
+            <a
+              href="https://drive.google.com/file/d/19-88j0mP2sY0UP7pRYLPOgaTZyc_PEEt/view?usp=sharing"
+              target="_blank"
+              class="btn btn-primary"
+            >
+              <i class="fas fa-download"></i>
+              Download Resume
+            </a>
           </div>
         </div>
 
-        <div class="stats">
-          <div class="stat-card">
-            <div
-              class="stat-number"
-              onclick="window.location.href='https://www.geeksforgeeks.org/user/mohammadk3els/'"
-              style="cursor: pointer"
-            >
-              30
-            </div>
+        <!-- Stats -->
+        <div class="stats-container">
+          <div class="stat-box">
+            <div class="stat-value" data-target="30">0</div>
             <div class="stat-label">Institute Rank on GeeksforGeeks</div>
-          </div>
-          <div class="stat-card">
-            <div
-              class="stat-number"
-              onclick="window.location.href='https://leetcode.com/u/mdkaif1124/'"
-              style="cursor: pointer"
+            <a
+              href="https://www.geeksforgeeks.org/user/mohammadk3els/"
+              target="_blank"
+              class="stat-link"
             >
-              150+
-            </div>
-            <div class="stat-label">DSA Problems Solved</div>
+              View Profile <i class="fas fa-arrow-right"></i>
+            </a>
           </div>
-          <div class="stat-card">
-            <div class="stat-number">5+</div>
+          <div class="stat-box">
+            <div class="stat-value" data-target="150">0</div>
+            <div class="stat-label">DSA Problems Solved</div>
+            <a
+              href="https://leetcode.com/u/mdkaif1124/"
+              target="_blank"
+              class="stat-link"
+            >
+              View Profile <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+          <div class="stat-box">
+            <div class="stat-value" data-target="10">0</div>
             <div class="stat-label">Projects Completed</div>
           </div>
-          <div class="stat-card">
-            <div class="stat-number">2+</div>
+          <div class="stat-box">
+            <div class="stat-value" data-target="3">0</div>
             <div class="stat-label">Years Learning</div>
           </div>
         </div>
@@ -129,57 +150,216 @@
     </section>
 
     <!-- Skills Section -->
-    <section id="skills" class="section">
+    <section id="skills" class="section skills-section">
       <div class="container">
-        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="section-header">
+          <h2 class="section-title">Skills & Technologies</h2>
+        </div>
         <div class="skills-grid">
-          <div class="skill-category">
-            <h3><i class="fas fa-code"></i> Frontend Development</h3>
-            <div class="skill-tags">
-              <span class="skill-tag">HTML5</span>
-              <span class="skill-tag">Java</span>
-              <span class="skill-tag">C++</span>
-              <span class="skill-tag">CSS</span>
-              <span class="skill-tag">JavaScript</span>
+          <!-- Frontend Development -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-palette"></i>
             </div>
-          </div>
-          <div class="skill-category">
-            <h3><i class="fas fa-server"></i> Backend Development</h3>
-            <div class="skill-tags">
-              <span class="skill-tag">Node.js</span>
-              <span class="skill-tag">Express.js</span>
-              <span class="skill-tag">MongoDB</span>
-              <span class="skill-tag">RESTful APIs</span>
-            </div>
-          </div>
-          <div class="skill-category">
-            <h3><i class="fas fa-layer-group"></i> MERN Stack</h3>
-            <div class="skill-tags">
-              <span class="skill-tag">MongoDB</span>
-              <span class="skill-tag">Express.js</span>
-              <span class="skill-tag">React.js</span>
-              <span class="skill-tag">Node.js</span>
-              <span class="skill-tag">JWT Authentication</span>
+            <h3 class="skill-title">Frontend Development</h3>
+            <div class="tech-pills">
+              <span class="pill">HTML</span>
+              <span class="pill">CSS</span>
+              <span class="pill">JavaScript</span>
+              <span class="pill">React</span>
             </div>
           </div>
 
-          <div class="skill-category">
-            <h3><i class="fas fa-brain"></i> Problem Solving</h3>
-            <div class="skill-tags">
-              <span class="skill-tag">Data Structures</span>
-              <span class="skill-tag">Algorithms</span>
-              <span class="skill-tag">GeeksforGeeks</span>
-              <span class="skill-tag">Logical Thinking</span>
+          <!-- Backend Development -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-server"></i>
+            </div>
+            <h3 class="skill-title">Backend Development</h3>
+            <div class="tech-pills">
+              <span class="pill">Node.js</span>
+              <span class="pill">Express</span>
+              <span class="pill">MongoDB</span>
+              <span class="pill">REST APIs</span>
             </div>
           </div>
-          <div class="skill-category">
-            <h3><i class="fas fa-tools"></i> Tools & Technologies</h3>
-            <div class="skill-tags">
-              <span class="skill-tag">Git</span>
-              <span class="skill-tag">GitHub</span>
-              <span class="skill-tag">VS Code</span>
-              <span class="skill-tag">Postman</span>
-              <span class="skill-tag">Bootstrap</span>
+
+          <!-- MERN Stack -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-layer-group"></i>
+            </div>
+            <h3 class="skill-title">MERN Stack</h3>
+            <div class="tech-pills">
+              <span class="pill">MongoDB</span>
+              <span class="pill">Express.js</span>
+              <span class="pill">React.js</span>
+              <span class="pill">Node.js</span>
+              <span class="pill">JWT Auth</span>
+            </div>
+          </div>
+
+          <!-- Machine Learning -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3 class="skill-title">Machine Learning</h3>
+            <div class="tech-pills">
+              <span class="pill">Python</span>
+              <span class="pill"> Machine laerning Model Basic </span>
+            </div>
+          </div>
+
+          <!-- Problem Solving -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="skill-title">Problem Solving</h3>
+            <div class="tech-pills">
+              <span class="pill">Data Structures</span>
+              <span class="pill">Algorithms</span>
+              <span class="pill">Java</span>
+              <span class="pill">C++</span>
+            </div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="skill-title">Core Subjects</h3>
+            <div class="tech-pills">
+              <span class="pill">DBMS</span>
+              <span class="pill">OOPS</span>
+              <span class="pill">Machine learning</span>
+              <span class="pill">Computer Networks</span>
+            </div>
+          </div>
+
+          <!-- Tools & Technologies -->
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3 class="skill-title">Tools & Technologies</h3>
+            <div class="tech-pills">
+              <span class="pill">Git</span>
+              <span class="pill">GitHub</span>
+              <span class="pill">VS Code</span>
+              <span class="pill">Postman</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Internships Section -->
+    <section id="internships" class="section internships-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Internship Experience</h2>
+        </div>
+        <div class="internships-grid">
+          <!-- Bluestock Fintech -->
+          <div class="internship-card internship-relative">
+            <!-- TOP RIGHT CERTIFICATE BUTTON -->
+            <a
+              href="https://drive.google.com/file/d/14hElxlwoa0PwCFup4Fs_SuvPUNRJIx0u/view?usp=sharing"
+              target="_blank"
+              class="certificate-btn-top"
+            >
+              <i class="fas fa-certificate"></i>
+              Certificate
+            </a>
+
+            <div class="internship-header">
+              <div class="company-icon">
+                <i class="fas fa-building"></i>
+              </div>
+              <div class="internship-info">
+                <h3 class="internship-title">Software Development Intern</h3>
+                <h4 class="company-name">Bluestock Fintech</h4>
+                <span class="internship-date">June 2025 - Aug 2025</span>
+              </div>
+            </div>
+
+            <ul class="internship-details">
+              <li>
+                Led a team to develop a scalable full-stack IPO-based enterprise
+                web application
+              </li>
+              <li>
+                Built core modules using React, Node.js, Express, and MongoDB
+                with robust authentication
+              </li>
+              <li>
+                Developed algorithms to integrate external APIs for real-time
+                stock prices and dashboards
+              </li>
+              <li>
+                Delivered enterprise-level performance through scalable frontend
+                solutions
+              </li>
+            </ul>
+
+            <div class="tech-stack">
+              <span class="tech-badge">React</span>
+              <span class="tech-badge">Node.js</span>
+              <span class="tech-badge">MongoDB</span>
+              <span class="tech-badge">Express</span>
+              <span class="tech-badge">APIs</span>
+            </div>
+          </div>
+
+          <!-- Reveuse Platforms -->
+          <div class="internship-card internship-relative">
+            <!-- TOP RIGHT CERTIFICATE BUTTON -->
+            <a
+              href="https://drive.google.com/file/d/14tYoM4bbsli67fz4LRxz9VcOoJjhB6zM/view?usp=sharing"
+              target="_blank"
+              class="certificate-btn-top"
+            >
+              <i class="fas fa-certificate"></i>
+              Certificate
+            </a>
+
+            <div class="internship-header">
+              <div class="company-icon">
+                <i class="fas fa-building"></i>
+              </div>
+              <div class="internship-info">
+                <h3 class="internship-title">Java Developer Intern</h3>
+                <h4 class="company-name">Reveuse Platforms Pvt Ltd</h4>
+                <span class="internship-date">Internship Period</span>
+              </div>
+            </div>
+
+            <ul class="internship-details">
+              <li>
+                Developed a comprehensive Financial Budget Tracker application
+                using Java and SQL
+              </li>
+              <li>
+                Enhanced technical skills by integrating SQL databases with Java
+                applications
+              </li>
+              <li>
+                Gained valuable insights into software development lifecycle and
+                best practices
+              </li>
+              <li>
+                Applied theoretical knowledge in a real-world production
+                environment
+              </li>
+            </ul>
+
+            <div class="tech-stack">
+              <span class="tech-badge">Java</span>
+              <span class="tech-badge">SQL</span>
+              <span class="tech-badge">JDBC</span>
+              <span class="tech-badge">Database Design</span>
             </div>
           </div>
         </div>
@@ -187,139 +367,181 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="section">
+    <section id="projects" class="section projects-section">
       <div class="container">
-        <h2 class="section-title">Featured Projects</h2>
-        <div id="projectsContainer" class="projects-grid">
-          <!-- Projects will be dynamically loaded from script.js -->
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+        </div>
+        <div id="projectsGrid" class="projects-grid">
+          <!-- Projects will be loaded dynamically -->
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" class="section achievements-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Achievements</h2>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Achievement 1 -->
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <h3 class="achievement-title">Institute Rank 30 (GFG)</h3>
+            <p class="achievement-text">
+              Achieved 30th institute rank on GeeksforGeeks through consistent
+              problem-solving and DSA mastery.
+            </p>
+          </div>
+
+          <!-- Achievement 2 -->
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <i class="fas fa-medal"></i>
+            </div>
+            <h3 class="achievement-title">
+              3rd Place – Web Development Hackathon
+            </h3>
+            <p class="achievement-text">
+              Secured 3rd position in Web Development Hackathon at Janagani
+              Techfest, Feb 2025.
+            </p>
+          </div>
+
+          <!-- Achievement 3 -->
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3 class="achievement-title">Active Problem Solver</h3>
+            <p class="achievement-text">
+              Solved 100+ problems on LeetCode and 50+ on GeeksforGeeks with
+              strong consistency.
+            </p>
+          </div>
+
+          <!-- Achievement 4 -->
+          <div class="achievement-card">
+            <div class="achievement-icon">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+            <h3 class="achievement-title">Certified by Top Platforms</h3>
+            <p class="achievement-text">
+              Completed programs by Goldman Sachs, Apna College, GFG Bootcamp &
+              Deloitte Training Program.
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section">
+    <section id="contact" class="section contact-section">
       <div class="container">
-        <h2 class="section-title">Let's Connect</h2>
+        <div class="section-header">
+          <h2 class="section-title">Let's Connect</h2>
+        </div>
         <div class="contact-grid">
           <div class="contact-info">
-            <h3>Get in Touch</h3>
-            <p>
+            <h3 class="contact-heading">Get in Touch</h3>
+            <p class="contact-text">
               I'm always open to discussing new opportunities, interesting
               projects, or just having a chat about technology!
             </p>
-
             <div class="contact-methods">
-              <div class="contact-method">
-                <i class="fas fa-envelope"></i>
-                <div>
-                  <h4>Email ( Most Recommended)</h4>
-                  <a href="mailto:mohammadkaif6660@gmail.com"
-                    >mohammadkaif6660@gmail.com</a
-                  >
+              <a href="mailto:mohammadkaif6660@gmail.com" class="contact-item">
+                <div class="contact-icon-box">
+                  <i class="fas fa-envelope"></i>
                 </div>
-              </div>
-              <div class="contact-method">
-                <i class="fab fa-linkedin"></i>
-                <div>
+                <div class="contact-details">
+                  <h4>Email (Most Recommended)</h4>
+                  <p>mohammadkaif6660@gmail.com</p>
+                </div>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/mohammad-kaif-9a0bb6284/"
+                target="_blank"
+                class="contact-item"
+              >
+                <div class="contact-icon-box">
+                  <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="contact-details">
                   <h4>LinkedIn</h4>
-                  <a
-                    href="https://www.linkedin.com/in/mohammad-kaif-9a0bb6284/"
-                    target="_blank"
-                    >Connect with me</a
-                  >
+                  <p>Connect with me</p>
                 </div>
-              </div>
-              <div class="contact-method">
-                <i class="fab fa-github"></i>
-                <div>
+              </a>
+              <a
+                href="https://github.com/mod-kaif07"
+                target="_blank"
+                class="contact-item"
+              >
+                <div class="contact-icon-box">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div class="contact-details">
                   <h4>GitHub</h4>
-                  <a href="https://github.com/mod-kaif07" target="_blank"
-                    >Follow my work</a
-                  >
+                  <p>Follow my work</p>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
 
-          <div class="contact-form">
-            <form id="contactForm">
-              <div class="form-group">
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Your Name"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Your Email"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="text"
-                  id="subject"
-                  name="subject"
-                  placeholder="Subject"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <textarea
-                  id="message"
-                  name="message"
-                  placeholder="Your Message"
-                  rows="5"
-                  required
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">
-                <i class="fas fa-paper-plane"></i> Send Message
-              </button>
-            </form>
-          </div>
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="John Doe"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="john@example.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Project Discussion"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your message here..."
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              <i class="fas fa-paper-plane"></i>
+              Send Message
+            </button>
+          </form>
         </div>
       </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-content">
-          <div class="footer-text">
-            <p>&copy; 2025 Mohammad Kaif. All rights reserved.</p>
-            <p>
-              "I solve DSA problems for fun... and sometimes dream in
-              JavaScript."
-            </p>
-          </div>
-          <div class="footer-social">
-            <a href="https://github.com/mod-kaif07" target="_blank"
-              ><i class="fab fa-github"></i
-            ></a>
-            <a
-              href="https://www.linkedin.com/in/mohammad-kaif-9a0bb6284/"
-              target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-            <a href="mailto:mohammadkaif6660@gmail.com"
-              ><i class="fas fa-envelope"></i
-            ></a>
-            <a
-              href="https://auth.geeksforgeeks.org/user/mohammadk3els"
-              target="_blank"
-              ><i class="fas fa-code"></i
-            ></a>
-          </div>
-        </div>
-      </div>
-    </footer>
+
+    
 
     <script src="script.js"></script>
   </body>
