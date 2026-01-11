@@ -19,16 +19,7 @@ const projectsData = [
         icon: "fas fa-home",
         status: "Completed"
     },
-    {
-        title: "Voice Assistant - SOFIA",
-        description: "A personal voice assistant that fetches weather, performs math, tells jokes, and responds to voice commands.",
-        technologies: ["JavaScript", "HTML", "CSS", "API"],
-        githubLink: "https://github.com/mod-kaif07/SOFIA---Voice-Assistant.git",
-        liveLink: "https://sofia-voice-assistant.vercel.app/",
-        icon: "fas fa-microphone",
-        status: "Completed"
-    },
-    {
+     {
         title: "NEWS HUB",
         description: "A real-time news app with React frontend and Node.js + Express backend, fetching global headlines via public API.",
         technologies: ["React", "Node.js", "Express", "API"],
@@ -38,11 +29,21 @@ const projectsData = [
         status: "In Progress"
     },
     {
-        title: "QuickPost",
-        description: "A full-stack post-sharing app with RESTful APIs, allowing users to create, edit, view, and delete posts.",
-        technologies: ["HTML", "CSS", "JavaScript", "Node.js", "Express", "EJS"],
-        githubLink: "https://github.com/mod-kaif07/QuickPost.git",
-        liveLink: "https://quick-post-kaif.vercel.app/",
+        title: "Voice Assistant - SOFIA",
+        description: "A personal voice assistant that fetches weather, performs math, tells jokes, and responds to voice commands.",
+        technologies: ["JavaScript", "HTML", "CSS", "API"],
+        githubLink: "https://github.com/mod-kaif07/SOFIA---Voice-Assistant.git",
+        liveLink: "https://sofia-voice-assistant.vercel.app/",
+        icon: "fas fa-microphone",
+        status: "Completed"
+    },
+   
+    {
+        title: "Note app",
+        description: "A frontend Project Where we can add Note Intreactive UI and responsive Design",
+        technologies: ["React"],
+        githubLink: "https://github.com/mod-kaif07/Note_porject.git",
+        liveLink: "https://note-porject.vercel.app/",
         icon: "fas fa-pen-nib",
         status: "Completed"
     },
@@ -62,6 +63,15 @@ const projectsData = [
         githubLink: "https://github.com/mod-kaif07/dictoinary_web_app.git",
         liveLink: "https://dictoinarywebapp.vercel.app/",
         icon: "fas fa-book",
+        status: "Completed"
+    },
+        {
+        title: "BIM Calculator ",
+        description: "This is a simple and responsive web application that calculates the Body Mass Index (BMI) based on user input (height and weight). It provides an interpretation of the BMI result to help users understand whether they fall under underweight, normal, or overweight categories.",
+        technologies: ["HTML", "CSS", "JavaScript"],
+        githubLink: "https://github.com/mod-kaif07/BMI_calculator.git",
+        liveLink: "http://bmi-calculator-ashen-five.vercel.app/",
+        icon: "fas fa-key",
         status: "Completed"
     },
     {
