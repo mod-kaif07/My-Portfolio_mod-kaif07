@@ -20,11 +20,11 @@ const projectsData = [
         status: "Completed"
     },
      {
-        title: "NEWS HUB",
+        title: "Global-news-hub",
         description: "A real-time news app with React frontend and Node.js + Express backend, fetching global headlines via public API.",
-        technologies: ["React", "Node.js", "Express", "API"],
-        githubLink: "https://github.com/mod-kaif07/NEWS-HUB.git",
-        liveLink: null,
+        technologies: ["React","Tailwind", "API"],
+        githubLink: "https://github.com/mod-kaif07/Global_news_hub.git",
+        liveLink: "https://global-news-hub-seven.vercel.app/",
         icon: "fas fa-newspaper",
         status: "In Progress"
     },
@@ -41,7 +41,7 @@ const projectsData = [
     {
         title: "Note app",
         description: "A frontend Project Where we can add Note Intreactive UI and responsive Design",
-        technologies: ["React"],
+        technologies: ["React","Tailwind"],
         githubLink: "https://github.com/mod-kaif07/Note_porject.git",
         liveLink: "https://note-porject.vercel.app/",
         icon: "fas fa-pen-nib",
@@ -77,7 +77,7 @@ const projectsData = [
     {
         title: "Password Generator",
         description: "A tool that generates strong, customizable passwords using user-defined criteria like length and character types.",
-        technologies: ["HTML", "CSS", "JavaScript"],
+        technologies: ["React", "Tailwind"],
         githubLink: "https://github.com/mod-kaif07/-Password-Generator-.git",
         liveLink: "https://passbolt-delta.vercel.app/",
         icon: "fas fa-key",
