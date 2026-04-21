@@ -2,13 +2,13 @@
 // To add a new project, simply add a new object to this array following the same structure
 const projectsData = [
     {
-        title: "UBER CLONE",
-        description: "Built a full-stack Uber clone using React, Node.js, and Express with JWT authentication, real-time ride booking, dynamic fare calculation, and modular UI components.",
-        technologies: ["React", "Node.js", "Express", "JWT", "MongoDB"],
+        title: "DevCollab Work Space ",
+        description: "Developed a real-time collaborative workspace Integrated Gemini AI for intelligent code generation and assistance, .",
+        technologies: ["React", "Node.js", "Express", "JWT", "MongoDB","Gimini "],
         githubLink: "https://github.com/mod-kaif07/Uber_MERN_PROJECT.git",
-        liveLink: null,
+        liveLink: "https://dev-collab-workspace-frontend.vercel.app/",
         icon: "fas fa-car",
-        status: "In Progress"
+        status: "Completed "
     },
     {
         title: "Room Rental Platform",
@@ -21,10 +21,10 @@ const projectsData = [
     },
      {
         title: "Global-news-hub",
-        description: "A real-time news app with React frontend and Node.js + Express backend, fetching global headlines via public API.",
+        description: "A platform that allows users to search for GitHub profiles and view details such as followers, bio, and repository information",
         technologies: ["React","Tailwind", "API"],
-        githubLink: "https://github.com/mod-kaif07/Global_news_hub.git",
-        liveLink: "https://global-news-hub-seven.vercel.app/",
+        githubLink: "https://github.com/mod-kaif07/GitHub-Search-.git",
+        liveLink: "https://git-hub-search-dun.vercel.app/",
         icon: "fas fa-newspaper",
         status: "In Progress"
     },
@@ -39,11 +39,11 @@ const projectsData = [
     },
    
     {
-        title: "Note app",
-        description: "A frontend Project Where we can add Note Intreactive UI and responsive Design",
-        technologies: ["React","Tailwind"],
-        githubLink: "https://github.com/mod-kaif07/Note_porject.git",
-        liveLink: "https://note-porject.vercel.app/",
+        title: "currency converter app",
+        description: "A user-friendly currency converter app built with React and Tailwind CSS. It allows users to convert between different currencies in real-time using live exchange rates from an API. Features include selecting currencies, entering amounts, and displaying converted values instantly.",
+        technologies: ["React","Tailwind, Api "],
+        githubLink: "https://github.com/mod-kaif07/Currency_Converter.git",
+        liveLink: "https://currency-converter-tawny-xi.vercel.app/",
         icon: "fas fa-pen-nib",
         status: "Completed"
     },
@@ -65,15 +65,7 @@ const projectsData = [
         icon: "fas fa-book",
         status: "Completed"
     },
-        {
-        title: "BIM Calculator ",
-        description: "This is a simple and responsive web application that calculates the Body Mass Index (BMI) based on user input (height and weight). It provides an interpretation of the BMI result to help users understand whether they fall under underweight, normal, or overweight categories.",
-        technologies: ["HTML", "CSS", "JavaScript"],
-        githubLink: "https://github.com/mod-kaif07/BMI_calculator.git",
-        liveLink: "http://bmi-calculator-ashen-five.vercel.app/",
-        icon: "fas fa-key",
-        status: "Completed"
-    },
+      
     {
         title: "Password Generator",
         description: "A tool that generates strong, customizable passwords using user-defined criteria like length and character types.",
@@ -83,15 +75,7 @@ const projectsData = [
         icon: "fas fa-key",
         status: "Completed"
     },
-    {
-        title: "Guess the Number",
-        description: "A number guessing game where users try to guess a randomly generated number with feedback on each attempt.",
-        technologies: ["JavaScript", "HTML", "CSS"],
-        githubLink: "https://github.com/mod-kaif07/Guess-The-Number-Game.git",
-        liveLink: "https://guessit-game.vercel.app/",
-        icon: "fas fa-gamepad",
-        status: "Completed"
-    }
+   
 ];
 
 // ===== DOM ELEMENTS =====
