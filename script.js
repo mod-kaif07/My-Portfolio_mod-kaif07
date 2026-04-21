@@ -20,7 +20,7 @@ const projectsData = [
         status: "Completed"
     },
      {
-        title: "Global-news-hub",
+        title: "GitHub Explorer",
         description: "A platform that allows users to search for GitHub profiles and view details such as followers, bio, and repository information",
         technologies: ["React","Tailwind", "API"],
         githubLink: "https://github.com/mod-kaif07/GitHub-Search-.git",
